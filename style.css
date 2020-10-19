@@ -1,0 +1,67 @@
+html, body{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+#mainNav {
+    background: linear-gradient(128deg, rgba(2,0,36,1) 0%, rgba(74,184,184,1) 0%, rgba(12,144,186,1) 100%); 
+}
+.navbar .nav-item .nav-link{
+    margin-left: 30px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: white;
+}
+.jumbo1{
+    background: linear-gradient(128deg, rgba(2,0,36,1) 0%, rgba(74,184,184,1) 0%, rgba(12,144,186,1) 100%);
+    min-height: 750px;
+}
+.jumbotron p{
+    margin-top: 4%;
+    font-size: 20px;
+    font-weight: 400;
+}
+.jumbotron p span{
+    font-weight: 700;
+}
+.jumbotron .btn1{
+    background-color: #124E61;
+    border: none;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 500;
+}
+.jumbotron .btn2{
+    color: #124E61;
+    background-color: white;
+    border-color: #124E61;
+    border: 2px;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 500;
+}
+.jumbo2, .jumbo3{
+    /* margin-top: -2%; */
+    background: white;
+    /* height: 770px; */
+}
+.jumbo2 .display-4, .jumbo3 .display-4{
+    letter-spacing: 5px;
+}
+
+.jumbo3 .row2 .card img{
+    width: 80px;
+}
+li img{
+    width: 70px;
+}
+#bisanaraimg, #figmaimg{
+    width: 400px;
+}
+.footer{
+    background: linear-gradient(128deg, rgba(2,0,36,1) 0%, rgba(74,184,184,1) 0%, rgba(12,144,186,1) 100%); 
+    min-height: 50px;
+}
